@@ -34,7 +34,7 @@ namespace SQLite11
         }*/
         public MainPage()
         {
-            InitializeComponent();//
+            InitializeComponent();
 
             var layout = new StackLayout { HorizontalOptions = LayoutOptions.Center, Margin = new Thickness { Top = 100 } };
 
@@ -71,6 +71,11 @@ namespace SQLite11
             }
 
             Content = layout;
+        }
+
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         void OnButtonClicked(object sender, EventArgs e)
